@@ -1,0 +1,40 @@
+answers.txt
+
+1. black back, white text, green prompt
+2. lists files and folders
+3. mkdir csci112
+4. cd csci112
+5. cd .., cd ~, type the entire path
+6. 35. go to root who | wc -w
+
+_______________________________________
+hellowold.c
+
+/* helloworld.c
+   Adam Jacoby, CSCI112, Lab1
+   01/15/13
+*/
+
+#include <stdio.h>
+int main(void)
+{
+ printf("Hello World!\n");
+ return(0);
+}
+
+_______________________________________
+makefile
+
+# Makefile for helloworld.c
+# Adam Jacoby, CSCI112, Lab1
+# 01/15/13
+#
+
+helloworld: helloworld.o
+
+	gcc -o helloworld helloworld.o
+
+helloworld.o: helloworld.c
+
+	gcc -c helloworld.c
+

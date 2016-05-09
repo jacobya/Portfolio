@@ -1,0 +1,18 @@
+
+/* - - - CLASSES - - - */
+
+.volPic{
+width:100px;
+margin-left:150;
+}
+
+/* - - - DIVS - - - */
+
+#text{
+width:900px;
+font-family:verdana;
+text-align:left;
+padding-top:35px;
+margin-left:auto;
+margin-right:auto;
+}

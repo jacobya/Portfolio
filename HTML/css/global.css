@@ -1,0 +1,51 @@
+/* - - - TAGS - - - */
+
+body {
+ background-color: #FFCC66;
+}
+
+a {
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: small;
+ font-style: italic;
+ color: #000000;
+ text-decoration: none;
+}
+
+a:hover {
+ color: #0033CC;
+}
+
+/* - - - CLASSES - - - */
+
+.nav{
+padding-top:6px;
+float:left;
+width:240px;
+}
+
+/* - - - DIVS - - - */
+#logo{
+text-align:center;
+}
+
+#nav{
+background-color:#D0E6FF;
+font-size:90%;
+padding-top:12px;
+white-space:nowrap;
+text-align:center;
+width:1024px;
+height:40px;
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+}
+
+#copyright{
+text-align:center;
+font-style:oblique;
+font-family:verdana;
+margin-top:25px;
+font-size:10px;
+}

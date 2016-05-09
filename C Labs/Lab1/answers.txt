@@ -1,0 +1,7 @@
+1. black back, white text, green prompt
+2. lists files and folders
+3. mkdir csci112
+4. cd csci112
+5. cd .., cd ~, type the entire path
+6. 35. go to root who | wc -w
+

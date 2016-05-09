@@ -1,0 +1,68 @@
+﻿Adam Jacoby
+Q1:Which word most often follows the word “happy”? 
+	"birthday"
+Q2:Which word most often follows the word “sad”? 
+	"song"
+Q3:How many different (unique) words follow the word “computer”? 
+	59
+Q4:Which word most often follows the word “computer”? 
+	"love"
+Q5:How many times does this word follow “computer”’? 
+	13
+
+Q6:Using the starting word “happy”, what song title do you get?
+	happy birthday song for the world is a little girl
+Q7:Using the starting word “sad”, what song title do you get?
+	sad song for the is a little girl in
+Q8:Using the starting word “hey”, what song title do you get?
+	hey hey hey hey hey hey hey hey hey hey
+Q9:Using the starting word “little”, what song title do you get?
+	little girl in the world is a little girl in
+Q10:Try a few other words. What problem(s) do you see? Which phrase do you
+most often find recurring in these titles?
+	The titles start repeating quickly. for the is a little girl in the world ....
+	
+Q10(again?):Using the starting word “amore”, what song title do you get?
+	amore mio babbino caro nome de la vida es el
+Q11:Using the starting word “love”, what song title do you get?
+	love you are you are you are you are you
+Q12:Using the starting word “little”, what song title do you get?
+	little girl like you are you are you are you
+Q14(just, like, skipping 13):Explain why so many of the titles devolve into repeating patterns.
+	Once you hit one pair or set of pairs that commonly follow, the titles will start to repeat.
+Q15:Try several words. Find a song title that terminates in less than 20 words.
+Could you find one? If so, which song title did you find? If not, why not?
+	No, but putting in "monitor" gave me the most metal sounding song title ever.("monitor scream machine gun song")
+	
+Q16:Describe in one to two paragraphs your extension and how it fixed the repeating
+phrase/word problem.
+	I implemented an extremely simple fix to take away the recurring phrases. All I did was add a clause
+	in the song title generator that said that if a phrase already existed inside the currently building
+	title, then that phrase could not be added to the title.
+Q17:Using the starting word “montana”, what song title do you get?
+	montana sacra nova baby i love you are
+Q18:Using the starting word “bob”, what song title do you get?
+	bob marley medley 1 2 down south side story
+Q19:Using the starting word “bob’ again, do you get the same title? If no, what do
+you get? Try it a third time. Explain why the title might differ each time.
+	Yes. It is possible to change the code so that if there is the same number of words then the 
+	title will change because of the ties in word count.
+Q20:Share your favorite song title that you have found.
+	"monitor machine gun song is my heart"
+
+Q21:Name something you like about Perl. Explain.
+	I am not the greatest fan of Perl. Saying that, the ability to just enter a regular expression and 
+	change strings and such on the fly is very useful.
+Q22:Name something you dislike about Perl. Explain.
+	Readability. Although Perl is far from the worst when it comes to readability, I did find myself 
+	looking through regular expressions and metric tons of code from perl-monks while scratching my
+	head and wondering what the meaning of life was.
+Q23:Did you enjoy this lab? Which aspects did you like and/or dislike?
+	Overall, this was a very enjoyable lab. Although I am not a fan of Perl, the subject of the lab was
+	enjoyable to work with, especially after passing the regular expression portion of the lab and getting
+	into the titles, and modification therein.
+Q24:Approximately how many hours did you spend on this lab?
+	8-12 (ish)
+Q25:Do you think you will use Perl again? For which type(s) of project(s)?
+	I may. Getting through the learning pains may not have been fun, but the ability to modify data 
+	on the fly may come in useful for future projects.

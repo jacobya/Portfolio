@@ -1,0 +1,36 @@
+/* - - - TAGS - - - */
+
+table{
+background-color:#D0E6FF;
+}
+/* - - - CLASSES - - - */
+
+.pic1{
+float:left;
+width:994px;
+padding:15px;
+}
+
+
+/* - - - DIVS - - - */
+#logo{
+text-align:center;
+}
+
+#frontpic{
+margin-top:60px;
+margin-left:auto;
+margin-right:auto;
+padding:10px;
+width:1024px;
+}
+
+#text{
+width:650px;
+font-style:oblique;
+font-family:verdana;
+text-align:center;
+padding-top:35px;
+margin-left:auto;
+margin-right:auto;
+}

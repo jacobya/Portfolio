@@ -1,0 +1,67 @@
+/*
+ *	Adam Jacoby
+ *	Lab 7 Sorting Problem
+ *	06/13/2013
+ */
+#include <stdio.h>
+#define LENGTH 20
+
+void menu();
+void in_data();
+void display();
+
+/* struct for person information */
+typedef struct {
+	char namef[LENGTH];
+	char namel[LENGTH];
+	int age;
+} person_t;
+
+typedef struct {
+	int count;
+} count_t;
+
+person_t people[LENGTH];
+
+main (void)
+{
+	count_t scount = { .count = 0};
+	menu();
+}
+
+/*	loads menu options (input new person, quit, display data) */
+void menu()
+{
+	char choice;
+	printf("Select one:\na: input person\nb: display data\nq: quit");
+	scanf("%c", &choice);
+	switch(choice)
+	{
+		case 'a': in_data(); break;
+		case 'b': display(); break;
+		case 'q': break;
+	}
+{
+
+/*	takes input from user: name, age */
+void in_data()
+{
+	printf("Please enter last, first age");
+	scanf("%s, %s %d", &people[scount.count].namel, &people[scount.count].namef, &people[scount.count].age);
+	scount.count++;
+}
+
+/*	displays formatted user entered data from an array */
+void display()
+{
+	int i, j;
+	printf("Alphabetized list\n");
+	for(i = 0; i < 30; i++)
+		printf("-");
+	printf("\n");
+	for(j = 0; j < scount.count; j++)
+	{
+		printf("	%s, %s", &people[j].namel, &people[j].namef);
+		printf("%-18d\n", &people[j].age);
+	}
+}

@@ -1,0 +1,28 @@
+/* - - - TAGS - - - */
+
+table{
+width:1024px;
+margin-left:40px;
+}
+
+/* - - - CLASSES - - - */
+
+.pica{
+width:150px;
+padding:5px;
+background-color:#D0E6FF;
+}
+
+/* - - - DIVS - - - */
+#logo{
+text-align:center;
+}
+
+#adopt{
+margin-top:85px;
+margin-left:auto;
+margin-right:auto;
+padding:10px;
+width:1024px;
+color:black;
+}
